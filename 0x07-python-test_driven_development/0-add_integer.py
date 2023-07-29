@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-'''Prototype: def add_integer(a, b=98):
-a and b must be integers or floats
-a and b must be first casted to
-Returns an integer: the addition of a and b
-You are not allowed to import '''
+"""Defines an integer addition function."""
 
 
 def add_integer(a, b=98):
-    '''Prototype: def add_integer(a, b=98):
-    a and b must be integers or floats,
-    a and b must be first casted to '''
-    if type(a) != int and type(a) != float:
+    """Return the integer addition of a and b.
+
+    Float arguments are typecasted to ints before addition is performed.
+
+    Raises:
+        TypeError: If either of a or b is a non-integer and non-float.
+    """
+    if ((not isinstance(a, int) and not isinstance(a, float))):
         raise TypeError("a must be an integer")
-    if type(b) != int and type(b) != float:
+    if ((not isinstance(b, int) and not isinstance(b, float))):
         raise TypeError("b must be an integer")
-    return int(a) + int(b)
+    return (int(a) + int(b))
