@@ -6,4 +6,3 @@ if(args[2]){
 else{
   onsole.log('No argument');
 }
-
