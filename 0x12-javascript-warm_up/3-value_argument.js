@@ -1,3 +1,5 @@
 #!/usr/bin/node
-const ;
-console.log('');
+const args;
+if(){
+  console.log('No argument');
+}
