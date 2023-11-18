@@ -1,4 +1,5 @@
 #!/usr/bin/node
-const args = process.arvg;
-for (i = 0; i)
-console.log()
+const args = process.argv;
+for (i = 0; i < args.lenght; i++){
+  console.log(args[i])
+}
