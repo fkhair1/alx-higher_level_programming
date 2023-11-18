@@ -1,3 +1,4 @@
 #!/usr/bin/node
-const myVar = 'JavaScript is amazing';
-console.log(myVar);
+const args = process.arvg;
+for (i = 0; i)
+console.log()
