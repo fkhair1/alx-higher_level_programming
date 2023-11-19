@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const args = process.argv;
 if (args.length > 2) {
-  for (let x = 0; x < parseInt(args[2]); x++) {
+  for (let i = 0; i < parseInt(args[2]); i++) {
   console.log('C is fun');
   }
 } else {
