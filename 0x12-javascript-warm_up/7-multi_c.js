@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const args = process.argv;
-if (args > 2) {
+if (args.length > 2) {
   for (const i = 0; i < args[2]; i++) {
   console.log('C is fun');
   }
