@@ -1,3 +1,12 @@
 #!/usr/bin/node
-const myVar = 'JavaScript is amazing';
-console.log(myVar);
+const args = process.argv;
+function factorial (a) {
+ if (parseInt(a)) {
+  for (let i = 0; i <= parseInt(a); i++) {
+    console.log(a=a*i);
+    } 
+ } else {
+    console.log(1);
+  }
+}
+factorial (args[2]);
