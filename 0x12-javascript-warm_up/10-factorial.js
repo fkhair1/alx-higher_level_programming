@@ -1,12 +1,11 @@
 #!/usr/bin/node
 const args = process.argv;
 function factorial (a) {
-  let n = 1;
   if (parseInt(a)) {
-    for (let i = 1; i <= parseInt(a); i++) {
-      n = n * i;
+    for (let i = 0; i <= parseInt(a); i++) {
+      console.log(a = a * i);
     }
+  } else {
+    console.log(1);
   }
-   console.log(n);
 }
-factorial (args[2]);
