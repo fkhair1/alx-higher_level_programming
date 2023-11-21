@@ -3,4 +3,4 @@ function add (a, b) {
   console.log(a+b);
 };
 const args = process.argv;
-console.log(parseInt(args[2]), parseInt(args[3]));
+add(parseInt(args[2]), parseInt(args[3]));
